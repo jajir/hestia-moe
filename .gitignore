@@ -22,3 +22,20 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Hestia MoE playground
+/target/
+/.idea/
+/.vscode/
+*.iml
+.DS_Store
+
+# Local model artifacts and experiment output; never commit model weights.
+/models/
+/data/
+/runs/
+/tmp/
+*.gguf
+*.safetensors
+*.jfr
+*.hprof
